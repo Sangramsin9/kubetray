@@ -1,13 +1,12 @@
 [float]
-= Java SystemTray Kubernetes Context Selector Application.
+= Kubernetes Context Selector Java SystemTray Application
 :doctype: article
 :encoding: utf-8
 :lang: en
 :toc: left
-
-:description: KubeTray is a simple Java Swing Windows System Tray application for selecting the default Kubernetes context.
+:description: Easy to use, faster Kubernetes Context Selector UI. will help developers and devops engineers working on multiple Kubernetes Clusters to faster switch between Kubernetes Contexts.
 :author: Sangramsing
-:keywords: kubernetes, kubernetes utilities for context switching, kubernetes tools, kubernetes contexts switch
+:keywords: kubernetes context selector system tray application, kubernetes utilities for context switching, kubernetes tools, kubernetes contexts switch UI
 
 == About
 
@@ -15,19 +14,12 @@
 ==== A simple Java Swing/AWT based Windows System Tray application for switching the Kubernetes (cluster) contexts faster.
 
 [float]
-==== Easy to use, faster Kubernetes Context Selector tool will help developers and devops engineers working on multiple Kubernetes Clusters.
+==== Easy to use, faster Kubernetes Context Selector UI.
 
+[float]
+==== KubeTray context switching UI can help Developer and DevOps engineers working on multiple Kubernetes Clusters.
 ++++
-<a class="view-github" href="https://github.com/sangramsin9/kubetray">View on Github</a>
-<style>
- .image-block {
-    text-align: center !important;
- }
-
- .view-github {
-    float: right;
- }
-</style>
+<a style="float: right;" class="view-github" href="https://github.com/sangramsin9/kubetray">View on Github</a>
 ++++
 
 == Demo
