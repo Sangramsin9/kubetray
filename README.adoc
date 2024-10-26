@@ -12,12 +12,15 @@
 == About
 
 [float]
-==== A simple Java Swing/AWT based Windows System Tray application for selecting the default Kubernetes context.This simple easy to use application will help developers and devops engineers working on especially multiple K8s Clusters like prod, staging, dev and local environment where we frequently need to switch the K8s Context for running kubectl commands.
+==== A simple Java Swing/AWT based Windows System Tray application for switching the Kubernetes (cluster) contexts faster.
+
+[float]
+==== Easy to use, faster Kubernetes Context Selector tool will help developers and devops engineers working on multiple Kubernetes Clusters.
 
 ++++
 <a class="view-github" href="https://github.com/sangramsin9/kubetray">View on Github</a>
 <style>
- .imageblock {
+ .image-block {
     text-align: center !important;
  }
 
@@ -28,31 +31,35 @@
 ++++
 
 == Demo
+
 .KubeTray System Tray Icon in Windows System Tray
 image::src/main/resources/images/k8s_tray_demo.png[]
 
 .KubeTray System Tray Icon showing all the Kubernetes Contexts
 image::src/main/resources/images/k8s_tray_demo_2.png[]
 
-== How to install
-You can run it by executing the KubeTray.exe file, once successfully launched it show you system tray icon for KubeTray app. You are all set!
+.Option to configure .kube/config location other than default minikube / kubernetes location.
+image::src/main/resources/images/k8s_tray_settings.png[]
 
-==== Run on JVM
+== How to install
+Following below step will help you to build KubeTray.exe / kubetray.jar locally.
+
+====== Run on JVM
 [source,bash]
 ----
 git clone https://github.com/sangramsin9/kubetray.git
 cd kubetray
 mvn clean install
 cd target
-java -jar kubetray.jar
+java -jar .\kubetray-0.0.1-jar-with-dependencies.jar
 ----
 
-==== Run as EXE
+====== Run as EXE
 [source, cmd]
 ----
 git clone https://github.com/sangramsin9/kubetray.git
 cd kubetray
 mvn clean install
 cd target
-Execute KubeTray.exe for Windows CMD use: start KubeTray.exe
+start KubeTray.exe
 ----
