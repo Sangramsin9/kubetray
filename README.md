@@ -13,21 +13,27 @@ switching the Kubernetes (cluster) contexts faster.**
 working on multiple Kubernetes Clusters.**
 
 <div align="right">
-  <a href="https://pages.github.com/sangramsin9/kubetray">View on GitHub</a>
+  <a href="https://github.com/sangramsin9/kubetray">View on GitHub</a>
 </div>
 
 ---
 
 ## Demo
 
-![KubeTray System Tray Icon in Windows System
-Tray](src/main/resources/images/k8s_tray_demo.png)
+<figure>
+  <img src="src/main/resources/images/k8s_tray_demo.png" alt="KubeTray System Tray Icon in Windows System Tray" width="500" />
+  <figcaption>Figure 1: KubeTray System Tray Icon in Windows System Tray.</figcaption>
+</figure>
 
-![KubeTray System Tray Icon showing all the Kubernetes
-Contexts](src/main/resources/images/k8s_tray_demo_2.png)
+<figure>
+  <img src="src/main/resources/images/k8s_tray_demo_2.png" alt="KubeTray System Tray Icon showing all the Kubernetes Contexts" width="500" />
+  <figcaption>Figure 2:KubeTray System Tray Icon showing all the Kubernetes Contexts.</figcaption>
+</figure>
 
-![Option to configure .kube/config location other than default minikube
-/ kubernetes location.](src/main/resources/images/k8s_tray_settings.png)
+<figure>
+  <img src="src/main/resources/images/k8s_tray_settings.png" alt="Description of the image" width="400" />
+  <figcaption>Figure 3: Option to configure .kube/config location other than default minikube / kubernetes location.</figcaption>
+</figure>
 
 ---
 
