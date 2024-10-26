@@ -1,0 +1,1 @@
+KubeTray is a simple Java Swing Windows System Tray application for selecting the default Kubernetes context.
